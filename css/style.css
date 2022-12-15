@@ -838,12 +838,17 @@ nav {
     font-size: 4rem;
   }
 
+  .ip {
+    text-align: center;
+  }
+
   h1 {
     font-size: 5rem;
   }
 
   #of {
     text-align: center;
+    font-size: 5rem;
   }
 
   #logo {
