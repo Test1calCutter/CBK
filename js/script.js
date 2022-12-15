@@ -7,17 +7,26 @@ $(document).ready(function(){
 	});
   
 
- 
-  // Scroll Reveal
-  // ScrollReveal().reveal('.services .grid .card');
-  
   $('.square.blue').on('inview', function(event, isInView) {
     if (isInView) {
-      // element is now visible in the viewport
       $(this).addClass("in-view");
     } else {
-      // element has gone out of viewport
       $(this).removeClass("in-view");
     }
   });
+});
+ 
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
 });
