@@ -1,0 +1,523 @@
+body {
+    background-color: #FFFFFF;
+    color: black;
+    font-family: 'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    
+    scroll-behavior: smooth;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .navWrapper {
+    width: 85%;
+    margin: auto;
+    padding-top: 24px;
+  }
+
+  .circle {
+    border-radius: 50%;
+      width: 100px;
+      height: 100px; 
+  }
+  
+  .circle.blue {
+    background: linear-gradient(#4F3DD5, #3DB2D5);
+    position: absolute;
+    top: 75px;
+    right: 390px;
+    animation: circleBlueMove 2s ease;
+    box-shadow: 3px 3px 15px rgba(61, 178, 213, 0.4);
+  }
+  
+  @keyframes circleBlueMove {
+    0% {
+      opacity: 0;
+      transform: translate(200px, 75px) rotate(90deg);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .circle.orange { 
+    background: linear-gradient(#D53D3D, #D5B83D);
+    position: absolute;
+    bottom: 550px;
+    left: 200px;
+    animation: circleOrangeMove 2s ease;
+    box-shadow: 3px 3px 15px rgba(213, 184, 61, 0.4);
+  }
+  
+  @keyframes circleOrangeMove {
+    0% {
+      opacity: 0;
+      transform: translate(-200px, -75px) rotate(90deg);
+    }
+    35% {
+      opacity: 0;
+      transform: translate(-200px, -75px) rotate(90deg);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+  }
+   
+  .square.red {
+    background: linear-gradient(135deg, #D53D3D, #D53DC9);
+    position: absolute;
+    top: 505px; 
+    right: 195px;
+    animation: squareRedMove 2s ease;
+    box-shadow: 3px 3px 15px rgba(213, 61, 201, 0.4);
+    transform: rotate(45deg);
+  } 
+  
+  @keyframes squareRedMove {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+      transform: translate(-200px, 75px) rotate(90deg);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .triangle svg {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    top: 25px;
+    left: 650;
+    animation: triangleGreendMove 2s ease;
+  } 
+  
+  @keyframes triangleGreendMove {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+      transform: translate(200px, -75px) rotate(90deg);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+#logo {
+  color: #292929;
+  font-size: 30px;
+
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.arrow {
+    font-size: 20px;
+}
+.title {
+    text-align: left;
+    color: black;
+    font-size: 4rem;
+
+    margin-left: 1rem;
+}
+
+.suptit {
+    text-align: right;
+    color: black;
+    font-size: 2rem;
+    margin-right: 1rem;
+    float: right;
+}
+
+.back {
+    text-decoration: none;
+    color: #000;
+    float: right;
+    margin-right: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0.8rem;
+}
+
+
+
+.team {
+    text-align: center;
+    color: black;
+    font-size: 96px;
+    margin-top: -100px;
+}
+
+.team-cbk {
+    font-size: 96px;
+    text-align: center;
+}
+
+.home {
+    margin-left: 50px;
+    margin-top: 50%;
+    font-family: 'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .a:hover {
+    color: #000;
+  }
+  
+  .a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .a:hover::before {
+    transform: scaleX(1);
+  }
+
+  
+.leitung {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.leitung-title {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.co-title {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.dev {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.dev-title {
+    font-size: 4.2rem;
+    text-align: center;
+}
+
+.co {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.managment {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.managment-title {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.sup {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.sup-title {
+    text-align: center;
+    font-size: 3rem
+}
+
+.t-s {
+    text-align: center;
+}
+
+.designer {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.designer-title {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.webdes {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.webdes-title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+
+
+@media (orientation: portrait){
+
+    .circle {
+        border-radius: 50%;
+          width: 100px;
+          height: 100px; 
+      }
+      
+      .circle.blue {
+        background: linear-gradient(#4F3DD5, #3DB2D5);
+        position: absolute;
+
+        top: 105px;
+        left: 650;
+
+        animation: circleBlueMove 2s ease;
+        box-shadow: 3px 3px 15px rgba(61, 178, 213, 0.4);
+      }
+      
+      @keyframes circleBlueMove {
+        0% {
+          opacity: 0;
+          transform: translate(200px, 75px) rotate(90deg);
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      .circle.orange { 
+        background: linear-gradient(#D53D3D, #D5B83D);
+        position: absolute;
+        bottom: 950px;
+        left: 150px;
+        animation: circleOrangeMove 2s ease;
+        box-shadow: 3px 3px 15px rgba(213, 184, 61, 0.4);
+      }
+      
+      @keyframes circleOrangeMove {
+        0% {
+          opacity: 0;
+          transform: translate(-200px, -75px) rotate(90deg);
+        }
+        35% {
+          opacity: 0;
+          transform: translate(-200px, -75px) rotate(90deg);
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      .square {
+        width: 100px;
+        height: 100px;
+      }
+       
+      .square.red {
+        background: linear-gradient(135deg, #D53D3D, #D53DC9);
+        position: absolute;
+        top: 425px;
+        left: 150px;
+        animation: squareRedMove 2s ease;
+        box-shadow: 3px 3px 15px rgba(213, 61, 201, 0.4);
+        transform: rotate(45deg);
+      } 
+      
+      @keyframes squareRedMove {
+        0% {
+          opacity: 0;
+        }
+        20% {
+          opacity: 0;
+          transform: translate(-200px, 75px) rotate(90deg);
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      .triangle svg {
+        width: 175px;
+        height: 175px;
+        position: absolute;
+        top: 905px; 
+        right: 195px;
+        animation: triangleGreendMove 2s ease;
+      } 
+      
+      @keyframes triangleGreendMove {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 0;
+          transform: translate(200px, -75px) rotate(90deg);
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    
+    body {
+        background-color: #FFFFFF;
+        color: black;
+        font-family: 'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 1.5;
+        
+        scroll-behavior: smooth;
+        font-weight: bold;
+        -webkit-font-smoothing: antialiased;
+      }
+    
+    .title {
+        text-align: left;
+        color: black;
+        font-size: 4rem;
+    
+        margin-left: 1rem;
+    }
+    
+    .suptit {
+        text-align: right;
+        color: black;
+        font-size: 4rem;
+        margin-right: 1rem;
+        float: right;
+    }
+    
+    .back {
+        text-decoration: none;
+        color: #000;
+        float: right;
+        margin-right: 1rem;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-top: 0.8rem;
+    }
+    
+    
+    
+    .team {
+        text-align: center;
+        color: black;
+        font-size: 6rem;
+        margin-top: -75px;
+    }
+    
+    .team-cbk {
+        font-size: 12rem;
+        text-align: center;
+    
+    }
+    
+    .home {
+        margin-left: 50px;
+        margin-top: 50%;
+        font-family: 'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        text-decoration: none;
+        color: black;
+    }
+
+    .leitung {
+        text-align: center;
+        font-size: 6rem;
+    }
+    
+    .leitung-title {
+        text-align: center;
+        font-size: 7rem;
+    }
+    
+    .co-title {
+        text-align: center;
+        font-size: 6rem;
+    }
+    
+    .dev {
+        text-align: center;
+        font-size: 5rem;
+    }
+    
+    .dev-title {
+        font-size: 6rem;
+        text-align: center;
+    }
+    
+    .co {
+        text-align: center;
+        font-size: 5.5rem;
+    }
+    
+    .managment {
+        text-align: center;
+        font-size: 5rem;
+    }
+    
+    .managment-title {
+        text-align: center;
+        font-size: 5rem;
+    }
+    
+    .sup {
+        text-align: center;
+        font-size: 5rem;
+    }
+    
+    .sup-title {
+        text-align: center;
+        font-size: 6rem
+    }
+    
+    .t-s {
+        text-align: center;
+    }
+    
+    .designer {
+        text-align: center;
+        font-size: 5rem;
+    }
+    
+    .designer-title {
+        text-align: center;
+        font-size: 6rem;
+    }
+    
+    .webdes {
+        text-align: center;
+        font-size: 6rem;
+    }
+    
+    .webdes-title {
+        text-align: center;
+        font-size: 5rem;
+    }
+}
