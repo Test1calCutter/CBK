@@ -1,7 +1,7 @@
 <html>
     <head>
-        <link rel="stylesheet" href="./css/faq/style.css">
-        <link rel="stylesheet" href="./js/faq/script.js">
+        <link rel="stylesheet" href="css/faq/style.css">
+        <link rel="stylesheet" href="js/faq/script.js">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <script  src="js/faq/script.js"></script>
         <title>Q&A - CBK</title>
@@ -9,44 +9,46 @@
 
 
     <body>
+        <div class="faq-header logo"><b><a href="index.html" id="logo" class="a2">CBK</a></b></div>
+        <div>
+            <h1 class="title" id="title">FAQ<br><br></h1>
+            <div id="dinger"> 
+                <div class="circle blue"></div>
+                <div class="square red"></div>
+                <div class="triangle green"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 177.893 177.893"><defs><style>.a{fill:url(#a);}.b{filter:url(#b);}</style><linearGradient id="a" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#3dbed5"/><stop offset="1" stop-color="#3dd55a"/></linearGradient><filter id="b" x="0" y="0" width="177.893" height="177.893" filterUnits="userSpaceOnUse"><feOffset dx="3" dy="3" input="SourceAlpha"/><feGaussianBlur stdDeviation="7.5" result="c"/><feFlood flood-color="#3dd55a" flood-opacity="0.396"/><feComposite operator="in" in2="c"/><feComposite in="SourceGraphic"/></filter></defs><g class="b" transform="matrix(1, 0, 0, 1, 0, 0)"><path class="a" d="M136.727,21104.928l-50.222,100h100Z" transform="translate(-8978.23 -19029.24) rotate(-25)"/></g></svg></div>
+                <div class="circle orange"></div>
+            </div>
+        </div>
 
-        <main>
-            <div>
-                <h2 class="title" style="font-size: 50;"><b>CBK FAQ</b></h2>
-                <h1 style="font-size:6rem; color: black;">IN BEARBEITUNG!</h1>
-            </div>
+        <div class="faq-content">
+          <div class="faq-question">
+            <input id="q1" type="checkbox" class="panel">
+            <div class="plus">+</div>
+            <label for="q1" class="panel-title">Was ist CBK?</label>
+            <div class="panel-content">CBK ist ein Moderner Whatsapp bot.</div>
+          </div>
+          
+          <div class="faq-question">
+            <input id="q2" type="checkbox" class="panel">
+            <div class="plus">+</div>
+            <label for="q2" class="panel-title">Wie kann ich CBK hinzufügen?</label>
+            <div class="panel-content">Du kannst den CBK Bot <a href="404.html" class="a" style="color: blue;">hier</a> hinzufügen.</div>
+          </div>
+          
+          <div class="faq-question">
+            <input id="q3" type="checkbox" class="panel">
+            <div class="plus">+</div>
+            <label for="q3" class="panel-title">Wo ist der Support?</label>
+            <div class="panel-content">Support kann man in unserer <a class="a" href="https://chat.whatsapp.com/Hwmb9myD0NPDHiCUTYxchM ">Whatsapp Gruppe</a> finden.</div>
+          </div>
 
-            <div class="c">
-                    <input type="checkbox" id="faq-1">
-                    <h1><label for="faq-1">Was ist CBK?</label></h1>
-                        <div class="p">
-                          <p>CBK ist ein Whatsapp bot.</p>
-                        </div>
-            </div>
-            <div class="c">
-                    <input type="checkbox" id="faq-2">
-                    <h1><label for="faq-2">Was macht CBK?</label></h1>
-                        <div class="p">
-                            <p>Platzhalter.</p>
-                        </div>
-            </div>
-            <div class="c">
-                <input type="checkbox" id="faq-3">
-                <h1><label for="faq-3">Warum sollte ich ihn hinzufügen?</label></h1>
-                    <div class="p">
-                      <p>Platzhalter.
-                      </p>
-                    </div>
-            </div>
-            <div class="c">
-                <input type="checkbox" id="faq-4">
-                <h1><label for="faq-4">Wo kann ich CBK hinzufügen?</label></h1>
-                    <div class="p">
-                      <p><a href="#" style="color: white; font-weight: bold;">Hier kann man CBK hinzufügen.</a>
-                      </p>
-                    </div>
-            </div>
-        </main>
+          <div class="faq-question">
+            <input id="q4" type="checkbox" class="panel">
+            <div class="plus">+</div>
+            <label for="q4" class="panel-title">Wen kann man Kontaktieren</label>
+            <div class="panel-content">Alle Kontaktdaten findet man in unserem <a class="a" href="impressum.html">Impressum</a>.</div>
+          </div>
+        </div>
     </body>
 
 </html>
