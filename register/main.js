@@ -53,7 +53,7 @@ const firebaseConfig = {
   
       database_ref.child('users/' + user.uid).set(user_data)
 
-      window.location = 'index.html';
+      window.location = 'home.html';
     })
     .catch(function(error) {
       var error_code = error.code
@@ -83,7 +83,7 @@ const firebaseConfig = {
       }
   
       database_ref.child('users/' + user.uid).update(user_data)
-      window.location = 'index.html';
+      window.location = 'home.html';
   
     })
     .catch(function(error) {
