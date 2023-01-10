@@ -699,6 +699,15 @@ nav {
 
 @media (orientation: portrait){
   
+  #login {
+    color: #292929;
+    font-size: 3rem;
+    float: right;
+    margin-top: -89px;
+    font-weight: normal;
+    text-decoration: none;
+  }
+
 .circle {
   border-radius: 50%;  
 	width: 75px;
