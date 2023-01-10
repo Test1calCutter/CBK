@@ -205,6 +205,15 @@ nav {
   text-decoration: none;
 }
 
+#login {
+  color: #292929;
+  font-size: 30px;
+  float: right;
+  margin-top: -63px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
 .right {
   float: right;
 }
